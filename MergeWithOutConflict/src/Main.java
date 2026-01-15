@@ -5,6 +5,6 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("2 + 2 = 4");
-        System.out.println("5 * 3 = 15");
+        System.out.println("5 * 3 = 15.");
     }
 }
