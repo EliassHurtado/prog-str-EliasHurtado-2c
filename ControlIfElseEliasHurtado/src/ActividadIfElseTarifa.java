@@ -9,7 +9,7 @@ public class ActividadIfElseTarifa {
         edad = leer.nextInt();
         System.out.println("¿Eres estudiante? Escriba true(Verdadero) o false(Falso)");
         esEstudiante = leer.nextBoolean();
-        if (edad < 0 || edad >120) {
+        if (edad <= 0 || edad >120) {
             System.out.println("Edad inválida");
             return;
         }
