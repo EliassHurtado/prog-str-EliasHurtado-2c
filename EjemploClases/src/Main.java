@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 //I-P-O
 //Input
-        int cantidad = inputValidator.getValidInt("Ingresa la cantidad de articulos",sc);
+        int cantidad = inputValidator.getValidInt("Ingresa la cantidad de articulos:",sc);
 //Process
          ticket.process(cantidad);
 
